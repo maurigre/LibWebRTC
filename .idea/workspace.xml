@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2f52d89-dc4b-4846-a9cf-3e77576aeccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibWebRTC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AndroidVideoDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AudioDecoderFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AudioEncoderFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AudioProcessingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AudioSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/AudioTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/BaseBitrateAdjuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/BitrateAdjuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/BuiltinAudioDecoderFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/BuiltinAudioEncoderFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CallSessionFileRotatingLogSink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CalledByNative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CalledByNativeUnchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera1Capturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera1Enumerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera1Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera2Capturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera2Enumerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Camera2Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CameraCapturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CameraEnumerationAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CameraEnumerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CameraSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CameraVideoCapturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CandidatePairChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CapturerObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/ContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/CryptoOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/DataChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/DefaultVideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/DefaultVideoEncoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/DtmfSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/DynamicBitrateAdjuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglBase10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglBase10Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglBase14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglBase14Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EglRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Empty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/EncodedImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/FecControllerFactoryFactoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/FileVideoCapturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/FrameDecryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/FrameEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/FramerateBitrateAdjuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/GlGenericDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/GlRectDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/GlShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/GlTextureFrameBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/GlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/H264Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/HardwareVideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/HardwareVideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/HardwareVideoEncoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Histogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/IceCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/JNILogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/JavaI420Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/JniCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/JniHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/LibvpxVp8Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/LibvpxVp8Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/LibvpxVp9Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/LibvpxVp9Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaCodecUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaCodecVideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaCodecWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaCodecWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaCodecWrapperFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaConstraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaStreamTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/MediaTransportFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Metrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NV12Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NV21Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NativeAndroidVideoTrackSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NativeCapturerObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NativeLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NativeLibraryLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NativePeerConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NetEqFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NetworkControllerFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NetworkMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NetworkMonitorAutoDetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/NetworkStatePredictorFactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/PeerConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/PeerConnectionDependencies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/PeerConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/PlatformSoftwareVideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RTCStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RTCStatsCollectorCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RTCStatsReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RefCountDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RefCounted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RendererCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RtcCertificatePem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RtpParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RtpReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RtpSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/RtpTransceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SSLCertificateVerifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/ScreenCapturerAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SdpObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SessionDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SoftwareVideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SoftwareVideoEncoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/StatsObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/StatsReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SurfaceEglRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SurfaceTextureHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/SurfaceViewRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/TextureBufferImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/ThreadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/TimestampAligner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/TurnCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoCapturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoCodecInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoCodecMimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoCodecStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoCodecType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoDecoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoDecoderFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoDecoderWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoEncoderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoEncoderFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoEncoderWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoFileRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoFrameDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoSink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/VideoTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/WebRtcClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/WrappedNativeI420Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/WrappedNativeVideoDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/WrappedNativeVideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/Yuv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/YuvConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/YuvFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/YuvFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/YuvHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/AudioDeviceModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/JavaAudioDeviceModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/VolumeLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/WebRtcAudioEffects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/WebRtcAudioManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/WebRtcAudioRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/WebRtcAudioTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/audio/WebRtcAudioUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/BuildInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/WebRtcAudioEffects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/WebRtcAudioManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/WebRtcAudioRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/WebRtcAudioTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/webrtc/voiceengine/WebRtcAudioUtils.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="51" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LibWebRTC" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LibWebRTC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LibWebRTC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LibWebRTC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1164">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_0_0_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1599" />
+    <option name="width" value="1368" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibWebRTC" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LibWebRTC" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="LibWebRTC" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="LibWebRTC" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../android-sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.LibWebRTC [clean]">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibWebRTC [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibWebRTC [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibWebRTC [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibWebRTC [deleteOldJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="deleteOldJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibWebRTC [exportJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="exportJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LibWebRTC [exportJar]" />
+        <item itemvalue="Gradle.LibWebRTC [deleteOldJar]" />
+        <item itemvalue="Gradle.LibWebRTC [buildDependents]" />
+        <item itemvalue="Gradle.LibWebRTC [clean]" />
+        <item itemvalue="Gradle.LibWebRTC [assembleRelease]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2f52d89-dc4b-4846-a9cf-3e77576aeccc" name="Default Changelist" comment="" />
+      <created>1609260070660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609260070660</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1599" y="0" width="1368" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32930514" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.3296875" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.32930514" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="permitir a captura de frames quando for solicitada" />
+    <option name="LAST_COMMIT_MESSAGE" value="permitir a captura de frames quando for solicitada" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1164">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3352685" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

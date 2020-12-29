@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    compileSdkVersion = 29
+    buildToolsVersion = '28.0.3'
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 22)
+        versionCode 1
+        versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+    buildTypes {
+        debug {
+            debuggable false
+            jniDebuggable false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // WebRTC requires Java 8 features
+    // https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/discuss-webrtc/V1h2uQMDCkA/RA-uzncVAAAJ
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+
+}
+buildscript {
+    repositories {
+        google()
+        jcenter()
+       // mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.0.1")
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-annotations:26.0.0'
+    //implementation 'org.jetbrains:annotations:15.0'
+    //implementation 'io.github.zncmn.libyuv:core:0.0.7'
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+//Task para deletar os JAR velhos
+task deleteOldJar(type: Delete){
+    delete 'release/libwebrtc.jar'
+}
+
+//Task para exportar conteudos para JAR
+task exportJar(type: Copy){
+    from('build/intermediates/bundles/release/')
+    into('release/')
+    include('classes.jar')
+
+    rename('classes.jar', 'libwebrtc.jar')
+}
